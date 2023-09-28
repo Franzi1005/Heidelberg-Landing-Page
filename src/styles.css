@@ -1,0 +1,29 @@
+:root {
+  --header-font: "Gabarito";
+  --text-font: "Poppins";
+}
+h1 {
+  font-family: var(--header-font);
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+p,
+h3 {
+  font-family: var(--text-font);
+}
+header {
+  color: white;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/heidelberg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
