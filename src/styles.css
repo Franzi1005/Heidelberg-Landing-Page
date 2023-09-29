@@ -9,7 +9,7 @@ h1 {
   margin: 20px;
 }
 h2 {
-  font-family: var(--header-font);
+  font-family: var(--text-font);
   margin: 10px 0px;
 }
 
@@ -110,4 +110,20 @@ header a {
   .intro-picture {
     display: none;
   }
+}
+
+.info-section {
+  background-image: url(/images/Marktplatz-HD.jpg);
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr;
+  grid-gap: 32px;
+}
+
+.info-section h2 {
+  font-size: 20px;
+}
+
+.info-section p {
+  font-size: 14px;
 }
