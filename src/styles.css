@@ -2,25 +2,34 @@
   --header-font: "Gabarito";
   --text-font: "Poppins";
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 h1 {
   font-family: var(--header-font);
   font-size: 64px;
   font-weight: 600;
   margin: 20px;
 }
-h2 {
+h2,
+p,
+h3,
+h4,
+a {
   font-family: var(--text-font);
-  margin: 10px 0px;
+}
+
+p {
+  margin-left: ;
 }
 
 h3 {
   font-size: 28px;
   font-weight: 600;
 }
-p,
-h3 {
-  font-family: var(--text-font);
-}
+
 header {
   color: white;
   text-align: center;
@@ -35,17 +44,11 @@ header a {
   margin: 20px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .info-button {
   background-color: white;
   padding: 12px 18px;
   border-radius: 20px;
   text-decoration: none;
-  font-family: var(--text-font);
   color: rgb(29, 29, 29);
 }
 
@@ -79,6 +82,20 @@ header a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 60px;
+}
+.card {
+  background-color: rgb(248, 245, 245);
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+  padding-left: 10px;
+}
+.card p {
+  padding-left: 10px;
+}
+.card a {
+  padding-left: 10px;
 }
 
 .favourite-place {
@@ -161,6 +178,10 @@ ul {
 
   .intro-picture {
     display: none;
+  }
+
+  .places-in-HD {
+    grid-template-columns: 1fr;
   }
 
   .info-section {
