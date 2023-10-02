@@ -88,14 +88,8 @@ header a {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
-.card h4 {
-  padding-left: 10px;
-}
-.card p {
-  padding-left: 10px;
-}
-.card a {
-  padding-left: 10px;
+.restaurant-info {
+  padding: 10px;
 }
 
 .favourite-place {
